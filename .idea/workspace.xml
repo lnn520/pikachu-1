@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="447a3ddd-ac5c-4b1b-b4f9-cb1f59822aed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/29/cb97f345a575e8e7994390d42895ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/53/0b7c746eb6465f8731c3221578cadb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/6a/9955d4395a080569205dee718d5d7c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/7e/1ffa39a847ac5372f21049f0e2f956.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/8c/ff9d24e16d355e09f9dfa6d37833d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/a7/1cb7ae8a8bafbca212eae47edb72bc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/ac/b041bf27e3a974f60aa343bee02dba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/flash.ca447bf8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jAWCGum162Qj7NIAPTwH1wEUbn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WEBPACK.DEMO" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\33534\Desktop\pikachu - 2\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="447a3ddd-ac5c-4b1b-b4f9-cb1f59822aed" name="Default Changelist" comment="" />
+      <created>1603247246572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603247246572</updated>
+      <workItem from="1603247247713" duration="11804000" />
+      <workItem from="1603718443640" duration="686000" />
+      <workItem from="1607047205884" duration="531000" />
+      <workItem from="1607047991513" duration="2045000" />
+      <workItem from="1607050393207" duration="906000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603719608988">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="418" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603719608988" />
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607050783644">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1607050783644" />
+    <state x="694" y="274" key="FileChooserDialogImpl" timestamp="1603719619910">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="694" y="274" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603719619910" />
+  </component>
+</project>

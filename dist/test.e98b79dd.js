@@ -117,9 +117,79 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"main.js":[function(require,module,exports) {
+})({"css.js":[function(require,module,exports) {
+"use strict";
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var string = ".skin *{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n.skin  *::before,*::after{box-sizing: border-box;} \n.skin{\n    position: relative;\n   min-height: 50vh; \n   background: #ffdb00;\n}\n.nose{\n    border:10px solid #010007;\n    border-color: #010007 transparent transparent;\n    position: relative;\n    height: 0;\n    width: 0;\n    left:50%;\n    top:145px;\n    margin-left: -10px;\n    border-bottom: none;\n    z-index: 10;\n}\n@keyframes wave{\n    0%{ transform: rotate(0);\n    }\n    33%{\n        transform: rotate(15deg);\n    }\n    66%{\n        transform: rotate(-15deg);\n    }\n    100%{\n        transform: rotate(0);\n    }\n}\n\n.nose .yuan{\n    width: 20px;\n    height: 6px;\n    position: absolute;\n    bottom: 10px;\n    left: -10px;\n    border-radius: 50% 50% 0 0;\n    background-color: #010007;\n}.nose:hover{\ntransform-origin: center bottom;\nanimation: wave 300ms infinite linear;\n}\n.eye{\n    border:  2px solid #000000;\n    width: 64px;\n    height: 64px;\n    left:50%;\n    top:100px;\n    margin-left: -32px;\n    position: absolute;\n    background:#2d2d2d;\n    border-radius: 50%;\n}\n.eye::before{\n    content:'';\n    display: block;\n    border:2px solid #4f4b37;\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    background:white;\n    transform: translateX(6px);\n    \n}\n.eye.left{\n    transform: translateX(-100px);\n}\n.eye.right{\n    transform: translateX(100px);\n}\n\n.mouth{\n   \n    position: absolute;\n    width: 200px;\n    height: 200px;\n    left: 50%;\n    top:165px;\n    margin-left: -100px;;\n\n}\n.mouth .up{\n    position: relative;\n    top:-26px;\n    right: -10px;\n    transform: translateX(-10px);\n    z-index: 1;\n    \n}\n.mouth .up .lip.left{\n    border: 3px solid black ;\n    height: 30px;\n    width: 60px;\n    border-top: none;\n    border-right: none;\n    border-radius: 0 0 0 50%;\n    transform: rotate(-20deg) translateX(-34px);\n    position: absolute;\n    left: 50%;\n    margin-left: -30px;\n    background-color: #ffdb00;\n}\n.mouth .up .lip.right{\n    border: 3px solid black ;\n    height: 30px;\n    width: 60px;\n    border-top: none;\n    border-left: none;\n    border-radius: 0 0 50% 0;\n    transform: rotate(20deg) translateX(34px);\n    position: absolute;\n    left: 50%;\n    margin-left: -30px;\n    background-color: #ffdb00;\n}\n.mouth .down{\n    width:200px;\n    height:200px;\n    position: relative;\n    overflow: hidden;\n}\n.mouth .down .lip{\n   \n    width: 100px;\n    height: 950px;\n    position: absolute;\n    left: 50%;\n    top:-800px;\n    margin-left: -50px;\n    border-radius: 140px/500px;\n    background: #a81008;\n    overflow: hidden;\n}\n.mouth .down .lip .lip2{\n    border-radius: 50%;\n    display: block;\n    width:120px;\n    height:130px;\n    position: absolute;\n    margin-left: -10px;\n    bottom: -10px;\n    background-color:#ff5b5d;\n}\n.face{\n    border: 3px solid  red;\n    width:84px;\n    height: 84px;\n    position: absolute;\n    left: 50%;\n    margin-left: -48px;\n    margin-top: 165px;\n    border-radius: 50%;\n    background-color: #ff1800;\n}\n.face.left{\n    transform: translateX(-140px);\n}\n.face.right{\n    transform: translateX(155px);\n  \n}\n.face>img{\n\n   position: absolute;\n   left:50%;\n   top:50%;\n \n}\n.face.left>img{\n    transform: rotateY(180deg);\n    transform-origin: 0 0;\n}\n";
+var _default = string;
+exports.default = _default;
+},{}],"test.js":[function(require,module,exports) {
+"use strict";
+
+var _css = _interopRequireDefault(require("./css.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var n = 1;
+demo.innerText = _css.default.substring(0, n);
+demo2.innerHTML = _css.default.substring(0, n);
+var time = 100;
+
+var run = function run() {
+  n += 1;
+
+  if (n > _css.default.length) {
+    window.clearInterval(id);
+    return;
+  }
+
+  demo.innerText = _css.default.substring(0, n);
+  demo2.innerHTML = _css.default.substring(0, n);
+  demo.scrollTop = demo.scrollHeight;
+};
+
+var play = function play() {
+  return setInterval(function () {
+    run();
+  }, time);
+};
+
+var pause = function pause() {
+  window.clearInterval(id);
+};
+
+var id = play();
+
+btnPause.onclick = function () {
+  pause();
+};
+
+btnPlay.onclick = function () {
+  id = play();
+};
+
+btnSlow.onclick = function () {
+  pause();
+  time = 300;
+  id = play(); //第一个参数传函数，一定不要加括号
+};
+
+btnNormal.onclick = function () {
+  pause();
+  time = 100;
+  id = play();
+};
+
+btnFast.onclick = function () {
+  pause();
+  time = 0;
+  id = play();
+};
+},{"./css.js":"css.js"}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -147,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62847" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63237" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -323,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","main.js"], null)
-//# sourceMappingURL=/main.1f19ae8e.js.map
+},{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","test.js"], null)
+//# sourceMappingURL=/test.e98b79dd.js.map
